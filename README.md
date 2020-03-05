@@ -9,26 +9,27 @@
 
 #  How to use it?
    This is a maven-scala project.
-   
-    INSTALLATION:
-	```
-	cd UsedCarPricePrediction
-	mvn package
-	```
-	
-    EXECUTION:
-	  ```
-	  	./bin/spark-submit \
- 	 	 	--class com.sparkml.UsedCarPricePrediction.Driver \
- 	 	    	--master <master-url> \
- 	 	    	--deploy-mode <deploy-mode> \
- 		    	--conf <key>=<value> \
-  		  	prediction-0.1.jar \
-                    option (c/lr/dt/rf/gb)
-          ```
+ 
+Installation:
+```
+cd UsedCarPricePrediction
+mvn package
+```
+
+EXECUTION:
+```
+./bin/spark-submit \
+ --class com.sparkml.UsedCarPricePrediction.Driver \
+ --master <master-url> \
+ --deploy-mode <deploy-mode> \
+ --conf <key>=<value> \
+ prediction-0.1.jar \
+ option (c/lr/dt/rf/gb)
+ ```
+ 
  Option is one of the following:
-    - c for cleaning data
-    - lr for Linear Regression
-    - dt for Decision Tree Regression
-    - rf for Random Forest Regression
-    - gb for Gradient Boosted Tree Regression
+ - c for cleaning data
+ - lr for Linear Regression
+ - dt for Decision Tree Regression
+ - rf for Random Forest Regression
+ - gb for Gradient Boosted Tree Regression
