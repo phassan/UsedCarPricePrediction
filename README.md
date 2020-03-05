@@ -10,11 +10,6 @@
 #  How to use it?
    This is a maven-scala project.
    
-	  INSTALLATION:
-	  ```
-	  cd UsedCarPricePrediction
-	  mvn package
-	  ```
     INSTALLATION:
 	```
 	cd UsedCarPricePrediction
@@ -32,8 +27,8 @@
                     option (c/lr/dt/rf/gb)
           ```
  Option is one of the following:
-    * c for cleaning data
-    * lr for Linear Regression
-    * dt for Decision Tree Regression
-    * rf for Random Forest Regression
-    * gb for Gradient Boosted Tree Regression
+    - c for cleaning data
+    - lr for Linear Regression
+    - dt for Decision Tree Regression
+    - rf for Random Forest Regression
+    - gb for Gradient Boosted Tree Regression
